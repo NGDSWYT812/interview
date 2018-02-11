@@ -130,7 +130,7 @@ date  ：2018/2/1
 			* arrayMap和hashmap的区别
 		* memoryleak 的考察；leakcanry 原理
 
-	* **为什么ui线程的Looper.loop开始后，在queue中没有msg死循环的情况下，cpu不会100%**（涉及linux底层，我听的一愣一愣的）
+	* **为什么ui线程的Looper.loop开始后，在queue中没有msg死循环的情况下，cpu不会100%**（epoll+pip）
 		
 * ApplicationThread
 	* 与 ActivityThread 的关系
